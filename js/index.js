@@ -1,4 +1,4 @@
-$('.carousel').carousel();
+//$('.carousel').carousel();
 
 $('#telefono').on('keyup', function () {
     var id = $(this).val();
