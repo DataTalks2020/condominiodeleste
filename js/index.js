@@ -94,6 +94,7 @@ $('#tipoidentificacion').on('change', function () {
     var numero = /[0-9]/;
     if (id.length != 0 || id != '') {
         texto = '';
+        $('#errorTipCed').text(texto);
     }
     if (tipo == 1) {
         if (id.length != 9) {
@@ -132,6 +133,8 @@ $('#identificacion').on('keyup', function () {
         texto = 'Seleccione un tipo identificación';
         $('#errorTipCed').text(texto);
         return false;
+    }else{
+        $('#errorTipCed').text(texto); 
     }
     if (id.length != 0 || id != '') {
         texto = '';
@@ -212,6 +215,7 @@ $('#tipoidentificacion1').on('change', function () {
     var numero = /[0-9]/;
     if (id.length != 0 || id != '') {
         texto = '';
+        $('#errorTipCed1').text(texto);
     }
     if (tipo == 1) {
         if (id.length != 9) {
@@ -250,6 +254,8 @@ $('#identificacion1').on('keyup', function () {
         texto = 'Seleccione un tipo identificación';
         $('#errorTipCed1').text(texto);
         return false;
+    }else{
+        $('#errorTipCed1').text(texto); 
     }
     if (id.length != 0 || id != '') {
         texto = '';

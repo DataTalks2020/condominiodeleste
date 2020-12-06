@@ -98,7 +98,7 @@ body, html{
 .img-iconos{
     width: 100px;
 }
-#btnSolicitar:focus, #btnSolicitar:active, #btnSolicitar:hover
+.btnSolicitar:focus, .btnSolicitar:active, .btnSolicitar:hover
 {
     outline: 0; 
     box-shadow: none !important;
