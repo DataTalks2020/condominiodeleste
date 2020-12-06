@@ -134,6 +134,11 @@ body, html{
 #emailHelp, #emailHelp1{
     font-weight: bold;
 } 
+.texto-gracias {
+    position: absolute;
+    left: 30%;
+    top: 40%;
+}
 @media only screen and (max-width: 1380px){
     .formulario-principal{ 
         width: 90%;
