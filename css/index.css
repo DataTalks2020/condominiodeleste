@@ -133,11 +133,26 @@ body, html{
 }
 #emailHelp, #emailHelp1{
     font-weight: bold;
-} 
-.texto-gracias {
-    position: absolute;
-    left: 30%;
-    top: 40%;
+}  
+.principal-exito{
+    height: 800px;
+    background-image: url("../img/fondo-principal.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}
+.principal-exito .logo{ 
+    width: 150px;
+    margin-left: 0rem!important;
+}
+.principal-exito .formulario-principal{ 
+    position: relative;
+    width: 40%;
+    height: 400px;
+}
+.principal-exito .formulario-principal h4 {
+    text-transform: uppercase;
+    margin-top: -15px;
+    font-weight: 400;
 }
 @media only screen and (max-width: 1380px){
     .formulario-principal{ 
@@ -147,10 +162,7 @@ body, html{
 @media only screen and (max-width: 1250px){
     .formulario-final p {
         font-size: 14px; 
-    }
-    .texto-gracias {
-        left: 25%;
-    }
+    } 
 }
 @media only screen and (max-width: 1175px){
     .formulario-final p {
@@ -158,10 +170,7 @@ body, html{
     }
     .formulario-principal{ 
         width: 100%;
-    } 
-    .texto-gracias {
-        left: 20%;
-    }
+    }  
 }
 
 @media only screen and (max-width: 1080px){
@@ -180,10 +189,6 @@ body, html{
     .form-control {
         font-size: 10px;
     } 
-    .texto-gracias { 
-        left: 15%; 
-    }
-
 }
 
 @media only screen and (max-width: 960px){
@@ -255,19 +260,17 @@ body, html{
     }
     .fondo-final {
         height: 700px;
+    } 
+    .principal-exito {  
+        background-size: 550px 100%;
+        padding: 0;
     }
-    .texto-gracias{ 
-        left: 10%; 
-        top: 40%; 
-        font-size: 2.2rem;
+    .principal-exito .formulario-principal {
+        width: 100%;
+        padding: 0;
     }
 }
-@media only screen and (max-width: 576px){
-    .texto-gracias{ 
-        left: 10%; 
-        top: 40%; 
-        font-size: 1.2rem;
-    }
+@media only screen and (max-width: 576px){ 
     .principal {
         height: 700px;
     }
@@ -275,24 +278,15 @@ body, html{
 @media (max-width: 380px){
     .cuadro-ofrecemos {
         width: 150px;
-    }
-    .texto-gracias { 
-        font-size: 1.1rem;
-    }
+    } 
     .principal {
         height: 700px;
     }
 }
 
-@media (max-width: 320px){
-    .texto-gracias { 
-        font-size: 0.9rem;
-    }
+@media (max-width: 320px){ 
 }
-@media only screen and (max-width: 900px) and (orientation: landscape) {
-    .texto-gracias {
-        left: 8%;
-    }
+@media only screen and (max-width: 900px) and (orientation: landscape) { 
     .principal {
         height: 600px;
     }
@@ -316,19 +310,19 @@ body, html{
     .fondo-final {
         height: 500px;
     } 
+    .principal-exito {
+        background-size: 100% 100%; 
+    }
+    .principal-exito .formulario-principal {
+        width: 60%; 
+    }
 }
 @media only screen and (max-width: 680px) and (orientation: landscape) {
     .cuadro-ofrecemos {
         width: 100px;
-    }
-    .texto-gracias {
-        font-size: 2rem;
-    }
+    } 
 }
-@media only screen and (max-width: 570px) and (orientation: landscape) {
-    .texto-gracias {
-        font-size: 1.7rem;
-    }
+@media only screen and (max-width: 570px) and (orientation: landscape) { 
     .fondo-final {
         height: 835px;
     }
