@@ -18,8 +18,7 @@ body, html{
     width: 150px;
 }
 .formulario-principal-cuadro{
-    z-index: 2;
-    margin-left: 3rem!important;
+    z-index: 2; 
 }
 .formulario-principal{
     width: 80%;
@@ -94,7 +93,7 @@ body, html{
     font-weight: 300;
 }
 .cuadro-ofrecemos{
-    width: 200px;
+    width: 190px;
 }  
 .img-iconos{
     width: 100px;
@@ -170,12 +169,12 @@ body, html{
     } 
 }
 @media only screen and (max-width: 1250px){
-    .formulario-final p {
+    .formulario-principal p, .formulario-final p {
         font-size: 14px; 
     } 
 }
 @media only screen and (max-width: 1175px){
-    .formulario-final p {
+    .formulario-principal p, .formulario-final p {
         font-size: 13px; 
     }
     .formulario-principal{ 
@@ -184,20 +183,17 @@ body, html{
 }
 
 @media only screen and (max-width: 1080px){
-    .formulario-final h2 { 
-        font-size: 30px;
-    }
-    .formulario-final p {
-        font-size: 11px; 
-    }
-    .formulario-principal h2 { 
+    .formulario-principal h2 , .formulario-final h2 {
         font-size: 30px; 
     }
-    .formulario-principal p { 
+    .formulario-principal p, .formulario-final p {
         font-size: 12px;
     }
     .form-control {
         font-size: 10px;
+    } 
+    .cuadro-ofrecemos{
+        width: 160px;
     } 
 }
 
@@ -205,30 +201,15 @@ body, html{
     .formulario-final h2 { 
         font-size: 30px;
     }
-    .formulario-principal p {
+    .formulario-principal p, .formulario-final p {
         font-size: 11px;
-    }
-    .formulario-principal {
-        width: 120%;
-    }
+    } 
+    .cuadro-ofrecemos{
+        width: 130px;
+    } 
 }
 @media only screen and (max-width: 860px){
-    .formulario-principal {
-        width: 130%;
-    }
-    /*.cuadro-ofrecemos {
-        width: 160px;
-    }
-    .texto-principal{ 
-        font-size: 1.7rem;
-        width: 350px;
-    } 
-    .formulario-principal {
-        width: 310px;
-    }
-    .text-cuadrocentral{
-        height: 180px;
-    }*/
+
 
 }
 @media only screen and (max-width: 768px){
@@ -245,7 +226,7 @@ body, html{
     .formulario-final {
         width: 100%;
     }
-    .formulario-principal h2 {
+    .formulario-principal h2 , .formulario-final h2 { 
         font-size: 20px;
     }
     .formulario-principal p,.formulario-final p {
@@ -265,10 +246,7 @@ body, html{
     }
     .formulario-principal-cuadro .col-6{ 
         padding: 0px 3px!important;
-    }
-    .formulario-final h2 { 
-        font-size: 20px;
-    }
+    } 
     .formulario-final{
         padding: 0px;  
     }
@@ -288,8 +266,9 @@ body, html{
     }
 }
 @media only screen and (max-width: 576px){ 
-    .principal {
+    .principal , .fondo-final{
         height: 700px;
+        background-size: 600px 100%;
     }
 }
 @media (max-width: 380px){
@@ -298,6 +277,9 @@ body, html{
     } 
     .principal {
         height: 700px;
+    }
+    .imagen-contexto {
+        width: 260px;
     }
 }
 
@@ -314,7 +296,7 @@ body, html{
         width: 130px;
     }
     .formulario-principal {
-        width: 125%;
+        width: 100%;
     }
     .formulario-principal-cuadro .col-6{ 
         padding: 0px 3px!important;
@@ -333,11 +315,12 @@ body, html{
     .principal-exito .formulario-principal {
         width: 60%; 
     }
+    .cuadro-ofrecemos {
+        width: 350px;
+    }
 }
 @media only screen and (max-width: 680px) and (orientation: landscape) {
-    .cuadro-ofrecemos {
-        width: 100px;
-    } 
+
 }
 @media only screen and (max-width: 570px) and (orientation: landscape) { 
     .fondo-final {
