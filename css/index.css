@@ -15,7 +15,7 @@ body, html{
     overflow-y: hidden;*/
 }
 .logo{
-    width: 130px;
+    width: 150px;
 }
 .formulario-principal-cuadro{
     z-index: 2;
@@ -34,6 +34,7 @@ body, html{
 }
 .text-principal-segundo{
     margin-top: -10px;
+    font-weight: 500 !important;
 }
 .formulario-principal p{
     text-align: justify;
@@ -66,7 +67,7 @@ body, html{
 }  
 .principal{
     height: 800px;
-    background-image: url("../img/fondo-principal.png");
+    background-image: url("../img/fondo-principal.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%; 
 }
@@ -109,7 +110,9 @@ body, html{
     background-color: rgba(255,255,255,0.6);
 }
 .formulario-final p{
+    text-align: justify;
     text-transform: uppercase;
+    font-size: 14px;
 }
 .formulario-final-cuadro{
     z-index: 2;
@@ -136,7 +139,7 @@ body, html{
 }  
 .principal-exito{
     height: 800px;
-    background-image: url("../img/fondo-principal.png");
+    background-image: url("../img/fondo-principal.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%; 
 }
@@ -153,6 +156,13 @@ body, html{
     text-transform: uppercase;
     margin-top: -15px;
     font-weight: 400;
+}
+.fondo-con-img-texto{
+    background: #e9a62b;
+    background-color: #e9a62b;
+}
+.imagen-contexto{
+    width: 550px;
 }
 @media only screen and (max-width: 1380px){
     .formulario-principal{ 
@@ -222,6 +232,16 @@ body, html{
 
 }
 @media only screen and (max-width: 768px){
+    .fondo-con-img-texto{
+        background: #b92d20;
+        background-color: #b92d20;
+    }
+    .imagen-contexto{
+        width: 350px;
+    }
+    .logo{
+        width: 120px;
+    }
     .formulario-final {
         width: 100%;
     }
