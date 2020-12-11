@@ -248,12 +248,9 @@ body, html{
     .formulario-principal h2 {
         font-size: 20px;
     }
-    .formulario-principal p {
-        font-size: 8px;
-    }
-    .formulario-final p {
-        font-size: 8px;
-    }
+    .formulario-principal p,.formulario-final p {
+        font-size: 10px;
+    } 
     .cuadro-central p { 
         font-size: 12px;
     }
