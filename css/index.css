@@ -267,17 +267,17 @@ body, html{
 }
 @media only screen and (max-width: 576px){ 
     .principal , .fondo-final{
-        height: 700px;
+        height: 900px;
         background-size: 600px 100%;
+    }
+    .cuadro-ofrecemos {
+        width: 175px;
     }
 }
 @media (max-width: 380px){
     .cuadro-ofrecemos {
         width: 150px;
-    } 
-    .principal {
-        height: 700px;
-    }
+    }  
     .imagen-contexto {
         width: 260px;
     }
@@ -286,12 +286,7 @@ body, html{
 @media (max-width: 320px){ 
 }
 @media only screen and (max-width: 900px) and (orientation: landscape) { 
-    .principal {
-        height: 600px;
-    }
-    .fondo-final {
-        height: 660px;
-    }
+ 
     .cuadro-ofrecemos {
         width: 130px;
     }
@@ -306,8 +301,8 @@ body, html{
     }
 }
 @media only screen and (max-width: 760px) and (orientation: landscape) {
-    .fondo-final {
-        height: 500px;
+    .fondo-final, .principal {
+        height: 700px;
     } 
     .principal-exito {
         background-size: 100% 100%; 
@@ -323,16 +318,16 @@ body, html{
 
 }
 @media only screen and (max-width: 570px) and (orientation: landscape) { 
-    .fondo-final {
+    .principal {
         height: 835px;
+    }
+    .fondo-final{
+        height: 935px;
     }
     .formulario-principal {
         width: 100%;
     }
     .cuadro-ofrecemos {
         width: 300px;
-    }
-    .principal {
-        height: 650px;
-    }
+    } 
 }
