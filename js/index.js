@@ -91,7 +91,7 @@ $('#tipoidentificacion').on('change', function () {
     //$('#emailHelp').text(texto);
     var id = $('#identificacion').val();
     var texto = '';
-    var numero = /[0-9]/;
+    var numero = /^[0-9]+$/;
     if (id.length != 0 || id != '') {
         texto = '';
         $('#errorTipCed').text(texto);
@@ -128,7 +128,7 @@ $('#identificacion').on('keyup', function () {
     var tipo = $('#tipoidentificacion').val();
     var id = $(this).val();
     var texto = '';
-    var numero = /[0-9]/;
+    var numero = /^[0-9]+$/;
     if (tipo.length == 0 || tipo == '' || tipo == 0) {
         texto = 'Seleccione un tipo identificación';
         $('#errorTipCed').text(texto);
@@ -212,7 +212,7 @@ $('#tipoidentificacion1').on('change', function () {
     //$('#emailHelp1').text(texto);
     var id = $('#identificacion1').val();
     var texto = '';
-    var numero = /[0-9]/;
+    var numero = /^[0-9]+$/;
     if (id.length != 0 || id != '') {
         texto = '';
         $('#errorTipCed1').text(texto);
@@ -249,7 +249,7 @@ $('#identificacion1').on('keyup', function () {
     var tipo = $('#tipoidentificacion1').val();
     var id = $(this).val();
     var texto = '';
-    var numero = /[0-9]/;
+    var numero = /^[0-9]+$/;
     if (tipo.length == 0 || tipo == '' || tipo == 0) {
         texto = 'Seleccione un tipo identificación';
         $('#errorTipCed1').text(texto);
