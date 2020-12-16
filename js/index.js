@@ -6,16 +6,16 @@ $('#telefono').on('keyup', function () {
     var numero = /^[0-9]+$/;
     $('#errorTel').addClass('d-none');
     if (id.length != 8) {
-        texto = 'Ingrese un número teléfono válido';
+        texto = 'Ingrese un  teléfono válido';
         $('#errorTel').removeClass('d-none');
     }
     if (!numero.test(id)) {
-        texto = 'Ingrese un número teléfono válido';
+        texto = 'Ingrese un  teléfono válido';
         $('#errorTel').removeClass('d-none');
     }
     var primero = id.substr(0, 1);
     if (primero != 2 && primero != 8 && primero != 7 && primero != 6) {
-        texto = 'Ingrese un número teléfono válido';
+        texto = 'Ingrese un  teléfono válido';
         $('#errorTel').removeClass('d-none');
     }
 
@@ -29,16 +29,16 @@ $('#telefono1').on('keyup', function () {
     var numero = /^[0-9]+$/;
     $('#errorTel1').addClass('d-none');
     if (id.length != 8) {
-        texto = 'Ingrese un número teléfono válido';
+        texto = 'Ingrese un  teléfono válido';
         $('#errorTel1').removeClass('d-none');
     }
     if (!numero.test(id)) {
-        texto = 'Ingrese un número teléfono válido';
+        texto = 'Ingrese un  teléfono válido';
         $('#errorTel1').removeClass('d-none');
     }
     var primero = id.substr(0, 1);
     if (primero != 2 && primero != 8 && primero != 7 && primero != 6) {
-        texto = 'Ingrese un número teléfono válido';
+        texto = 'Ingrese un  teléfono válido';
         $('#errorTel1').removeClass('d-none');
     }
 
